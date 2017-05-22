@@ -95,6 +95,37 @@ nav a:hover {
   padding: 0em .3em;
 }
 
+/* Resume */
+.resume {
+  width: 85%;
+  padding: 1.5em 0em 0em 0em;
+  margin: auto;
+}
+
+.r-contact {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #FF2400;
+  padding: .4em;
+}
+
+.webDev {
+  border-bottom: 1px solid #FF2400;
+}
+
+.webDev h4 {
+  text-transform: uppercase;
+}
+
+.webTech {
+  width: 40%;
+  text-align:justify;
+}
+
+.centerh4 {
+  text-align: center;
+}
+
 /* Portfolio */
 
 
@@ -185,6 +216,11 @@ nav a:hover {
     left: 0;
   	right: 0;
   	padding: 1.5em 0em 0em 1em;
+  }
+
+  .resume {
+    width: 70%;
+    padding: 1.5em 0em 0em 0em;
   }
 
 }
